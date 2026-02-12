@@ -1122,4 +1122,493 @@
                             <input type="date" id="resDate" required>
                         </div>
                         <div class="form-group">
-                            <i class
+                            <i class="fas fa-clock"></i>
+                            <select id="resTime" required>
+                                <option value="">Select Time</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-users"></i>
+                            <select id="resGuests" required>
+                                <option value="">Number of Guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6+ Guests</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-comment" style="top: 25px; transform: none;"></i>
+                        <textarea id="resSpecial" rows="3" placeholder="Special Requests (Optional)"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.2rem; padding: 1.2rem;">Confirm Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">Guest Experiences</h2>
+            <div class="grid">
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Guest" class="testimonial-img">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p style="margin-bottom: 1rem;">"The best Italian restaurant in the city! The truffle pasta is absolutely divine, and the service is impeccable. Will definitely return!"</p>
+                    <h4 style="color: var(--primary);">- Sarah Johnson</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Guest" class="testimonial-img">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p style="margin-bottom: 1rem;">"Authentic Italian flavors that transport you straight to Rome. The osso buco is perfection. A hidden gem worth discovering!"</p>
+                    <h4 style="color: var(--primary);">- Michael Chen</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1494790108753-2097e19e6b53?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Guest" class="testimonial-img">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p style="margin-bottom: 1rem;">"Celebrated our anniversary here and it was magical. The staff went above and beyond, and the tiramisu is to die for!"</p>
+                    <h4 style="color: var(--primary);">- Emily Rodriguez</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section" style="background: var(--gray);">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <div>
+                    <h3 style="margin-bottom: 1.5rem; font-size: 1.8rem;">Contact Information</h3>
+                    <div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-map-marker-alt" style="color: var(--primary); font-size: 1.5rem;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.3rem;">Address</h4>
+                            <p>123 Italian Boulevard, Foodie District, New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-phone" style="color: var(--primary); font-size: 1.5rem;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.3rem;">Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-envelope" style="color: var(--primary); font-size: 1.5rem;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.3rem;">Email</h4>
+                            <p>info@savoria.com</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <h3 style="margin-bottom: 1rem;">Opening Hours</h3>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 0.8rem; display: flex; justify-content: space-between;">
+                                <span>Monday - Thursday:</span>
+                                <span style="font-weight: 600;">11:30 AM - 10:00 PM</span>
+                            </li>
+                            <li style="margin-bottom: 0.8rem; display: flex; justify-content: space-between;">
+                                <span>Friday - Saturday:</span>
+                                <span style="font-weight: 600;">11:30 AM - 11:00 PM</span>
+                            </li>
+                            <li style="margin-bottom: 0.8rem; display: flex; justify-content: space-between;">
+                                <span>Sunday:</span>
+                                <span style="font-weight: 600;">12:00 PM - 9:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 1.5rem; font-size: 1.8rem;">Send Us a Message</h3>
+                    <form id="contactForm" onsubmit="return validateContact()">
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <input type="text" id="contactName" placeholder="Your Name" style="background: white; color: var(--text-dark);">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <input type="email" id="contactEmail" placeholder="Your Email" style="background: white; color: var(--text-dark);">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <input type="text" id="contactSubject" placeholder="Subject" style="background: white; color: var(--text-dark);">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
+                            <textarea id="contactMessage" rows="4" placeholder="Your Message" style="background: white; color: var(--text-dark);"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <i class="fas fa-utensil-spoon"></i> Savoria
+                    </div>
+                    <p style="margin-bottom: 1.5rem;">Authentic Italian cuisine crafted with passion and tradition since 1995.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1.5rem; font-size: 1.3rem;">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right" style="margin-right: 0.5rem; font-size: 0.8rem;"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right" style="margin-right: 0.5rem; font-size: 0.8rem;"></i> About Us</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right" style="margin-right: 0.5rem; font-size: 0.8rem;"></i> Menu</a></li>
+                        <li><a href="#reservation"><i class="fas fa-chevron-right" style="margin-right: 0.5rem; font-size: 0.8rem;"></i> Reservations</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right" style="margin-right: 0.5rem; font-size: 0.8rem;"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1.5rem; font-size: 1.3rem;">Newsletter</h4>
+                    <p style="margin-bottom: 1rem;">Subscribe for exclusive offers and updates!</p>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <input type="email" id="newsletterEmail" placeholder="Your email" style="background: rgba(255,255,255,0.1); border: none; padding: 1rem; color: white;">
+                        <button class="btn btn-primary" onclick="subscribeNewsletter()" style="padding: 1rem 1.5rem;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Savoria Italian Restaurant. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--primary);"></i> for authentic Italian dining</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== BACK TO TOP BUTTON ========== -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // ========== LOADER ==========
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loader').classList.add('hidden');
+            }, 500);
+        });
+
+        // ========== MOBILE MENU TOGGLE ==========
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // ========== SCROLL EFFECTS ==========
+        const header = document.getElementById('header');
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+                backToTop.classList.add('show');
+            } else {
+                header.classList.remove('scrolled');
+                backToTop.classList.remove('show');
+            }
+
+            // Active navigation highlighting
+            const sections = document.querySelectorAll('section');
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 150;
+                const sectionBottom = sectionTop + section.clientHeight;
+                if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                const href = link.getAttribute('href').substring(1);
+                if (href === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // ========== SMOOTH SCROLL ==========
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu after click
+                    navLinks.classList.remove('active');
+                    hamburger.querySelector('i').classList.remove('fa-times');
+                    hamburger.querySelector('i').classList.add('fa-bars');
+                }
+            });
+        });
+
+        // ========== BACK TO TOP ==========
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // ========== JAVASCRIPT FEATURE 1: MENU FILTER ==========
+        function filterMenu(category) {
+            // Remove active class from all tabs
+            document.querySelectorAll('.menu-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+            
+            // Hide all menu items
+            document.querySelectorAll('.menu-items').forEach(menu => {
+                menu.classList.remove('active');
+            });
+            
+            // Show selected category
+            document.getElementById(category).classList.add('active');
+        }
+
+        // ========== JAVASCRIPT FEATURE 2: RESERVATION VALIDATION ==========
+        function validateReservation() {
+            const name = document.getElementById('resName').value;
+            const email = document.getElementById('resEmail').value;
+            const phone = document.getElementById('resPhone').value;
+            const date = document.getElementById('resDate').value;
+            const time = document.getElementById('resTime').value;
+            const guests = document.getElementById('resGuests').value;
+
+            if (name.length < 2) {
+                alert('Please enter your full name');
+                return false;
+            }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address');
+                return false;
+            }
+
+            const phoneRegex = /^\d{10,}$/;
+            if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
+                alert('Please enter a valid phone number');
+                return false;
+            }
+
+            if (!date) {
+                alert('Please select a date');
+                return false;
+            }
+
+            if (!time) {
+                alert('Please select a time');
+                return false;
+            }
+
+            if (!guests) {
+                alert('Please select number of guests');
+                return false;
+            }
+
+            // Check if date is in the past
+            const selectedDate = new Date(date);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            
+            if (selectedDate < today) {
+                alert('Please select a future date');
+                return false;
+            }
+
+            alert('Reservation confirmed! We look forward to serving you at Savoria.');
+            document.getElementById('reservationForm').reset();
+            return false;
+        }
+
+        // ========== JAVASCRIPT FEATURE 3: CONTACT FORM VALIDATION ==========
+        function validateContact() {
+            const name = document.getElementById('contactName').value;
+            const email = document.getElementById('contactEmail').value;
+            const subject = document.getElementById('contactSubject').value;
+            const message = document.getElementById('contactMessage').value;
+
+            if (name.length < 2) {
+                alert('Please enter your name');
+                return false;
+            }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address');
+                return false;
+            }
+
+            if (subject.length < 3) {
+                alert('Please enter a subject');
+                return false;
+            }
+
+            if (message.length < 10) {
+                alert('Please enter a message with at least 10 characters');
+                return false;
+            }
+
+            alert('Thank you for your message! We will respond within 24 hours.');
+            document.getElementById('contactForm').reset();
+            return false;
+        }
+
+        // ========== JAVASCRIPT FEATURE 4: ADD TO CART ALERT ==========
+        function addToCart(itemName) {
+            alert(`🍽️ ${itemName} added to your order!\n\nProceed to reservation to complete your booking.`);
+            
+            // Animation effect on button
+            const button = event.target;
+            button.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                button.style.transform = 'scale(1)';
+            }, 200);
+        }
+
+        // ========== JAVASCRIPT FEATURE 5: NEWSLETTER SUBSCRIPTION ==========
+        function subscribeNewsletter() {
+            const email = document.getElementById('newsletterEmail').value;
+            
+            if (!email) {
+                alert('Please enter your email address');
+                return;
+            }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+
+            alert('🎉 Thank you for subscribing to Savoria newsletter! You will receive exclusive offers soon.');
+            document.getElementById('newsletterEmail').value = '';
+        }
+
+        // ========== SET MINIMUM DATE FOR RESERVATION ==========
+        const dateInput = document.getElementById('resDate');
+        if (dateInput) {
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            dateInput.min = `${yyyy}-${mm}-${dd}`;
+        }
+
+        // ========== PREVENT DEFAULT FORM SUBMISSION ==========
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+            });
+        });
+
+        // ========== SCROLL REVEAL ANIMATION ==========
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.card, .testimonial-card, .about-content, .about-image').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            observer.observe(el);
+        });
+
+        // ========== TOUCH DEVICE DETECTION ==========
+        function isTouchDevice() {
+            return (('ontouchstart' in window) ||
+                (navigator.maxTouchPoints > 0) ||
+                (navigator.msMaxTouchPoints > 0));
+        }
+
+        if (isTouchDevice()) {
+            document.body.classList.add('touch-device');
+            // Disable hover effects that might cause issues on touch devices
+        }
+
+        // ========== RESPONSIVE TABLE ADJUSTMENT ==========
+        function adjustForMobile() {
+            if (window.innerWidth <= 768) {
+                // Mobile specific adjustments
+                document.querySelectorAll('.menu-item').forEach(item => {
+                    item.style.flexDirection = 'column';
+                    item.style.alignItems = 'flex-start';
+                    item.style.gap = '0.5rem';
+                });
+            } else {
+                document.querySelectorAll('.menu-item').forEach(item => {
+                    item.style.flexDirection = 'row';
+                    item.style.alignItems = 'center';
+                    item.style.gap = '1rem';
+                });
+            }
+        }
+
+        window.addEventListener('resize', adjustForMobile);
+        window.addEventListener('load', adjustForMobile);
+    </script>
+</body>
+</html>
